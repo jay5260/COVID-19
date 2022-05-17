@@ -10,7 +10,6 @@ import Foundation
 struct Welcome: Codable {
     var success: Bool
     var data: DataClass
-    
     var lastRefreshed: String
     var lastOriginUpdate: String
 }
